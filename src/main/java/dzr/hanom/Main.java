@@ -15,7 +15,7 @@ public class Main {
         int bInt = aInt + 1;
         System.out.println("### result overflow int: " + bInt);
 
-        // Прекрасный пример из конспекта. Не мог не воспользоваться :)
+        // Вывод примеров математических операторов
         int a = 10;
         int b = 20;
         int c = 25;
@@ -31,7 +31,40 @@ public class Main {
         System.out.println("a   = " +  (a));     // a-1 из строки выше
         System.out.println("--a   = " +  (--a)); // a-1 высло сразу
 
-        //2) попробовать вычисления комбинаций типов данных (int и double)
+        // Упражнения с математическими операторами
+        int d = 10;
+        int e = 15;
+        int f = d * e;
+        System.out.println("f = d * e = " + f);
+        f = f / 100;
+        System.out.println("f = f / 100 = " + f);
+
+        // Упражнения с логическими операторами
+        int j = 15;
+        int h = 3;
+        if ( j >= 3 && h > j){
+            System.out.println("### not true ");
+        } else
+            System.out.println("### true ");
+
+        if ( j >= 3 || h > j){
+            System.out.println("### true story");
+        } else
+            System.out.println("### wrong way");
+        j = j / 5;
+
+        if ( j > 3 && h == j){
+            System.out.println("### good job");
+        } else
+            System.out.println("### false");
+        if ( j >= 3 && h == j){
+            System.out.println("### good job");
+        } else
+            System.out.println("### false");
+
+
+
+        //попробовать вычисления комбинаций типов данных (int и double)
         int z = 10;
         double y = 15.15;
         System.out.println("z + y = " + (z + y));
